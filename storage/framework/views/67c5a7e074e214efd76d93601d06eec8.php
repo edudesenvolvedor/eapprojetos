@@ -37,6 +37,10 @@
             </div>
         </div>
 
+        <footer class="border-t border-t-gray-300 py-8 text-center">
+            EAP Projetos © 2025.
+        </footer>
+
         <script>
             function toggleSidebarMenu () {
                 console.log("ok")
