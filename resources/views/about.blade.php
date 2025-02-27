@@ -16,6 +16,8 @@
 
         @include('partials.homepage.blog')
 
+        @include('partials.homepage.testimonials')
+
     </main>
 
 @endsection
