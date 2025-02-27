@@ -1,33 +1,31 @@
 @extends("layouts.main")
 
-    @section("title", "Eduardo Pacheco | Portfólio")
+@section("title", "Eduardo Pacheco | Portfólio")
 
-    @section("content")
+@section("content")
 
-    @include("partials.navbar")
+    <main>
 
-        <main>
+        @include("partials.homepage.hero")
 
-            @include("partials.homepage.hero")
+        @include("partials.homepage.clients")
 
-            @include("partials.homepage.clients")
+        @include("partials.homepage.info")
 
-            @include("partials.homepage.info")
+        @include("partials.homepage.services")
 
-            @include("partials.homepage.services")
+        @include("partials.homepage.call_to_action")
 
-            @include("partials.homepage.call_to_action")
+        @include("partials.homepage.portfolio")
 
-            @include("partials.homepage.portfolio")
+        @include("partials.homepage.request_quote")
 
-            @include("partials.homepage.request_quote")
+        @include("partials.homepage.testimonials")
 
-            @include("partials.homepage.testimonials")
+        @include("partials.homepage.blog")
 
-            @include("partials.homepage.blog")
+        @include("partials.homepage.contact")
 
-            @include("partials.homepage.contact")
+    </main>
 
-        </main>
-
-    @endsection
+@endsection

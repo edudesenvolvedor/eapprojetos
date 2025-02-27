@@ -8,8 +8,10 @@
         @include("layouts.partials.head")
     </head>
     <body class="font-sans font-semibold bg-white">
+    @include('layouts.partials.navbar')
 
     @yield('content')
 
+    @include('layouts.partials.footer')
     </body>
 </html>
