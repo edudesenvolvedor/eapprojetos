@@ -22,4 +22,8 @@ Route::prefix('/blog')->group(function () {
     Route::get('/', function () {
         return view('blog.home');
     });
+
+    Route::get('/{article}', function () {
+        return view('blog.articles');
+    });
 });
