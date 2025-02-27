@@ -1,0 +1,1 @@
+laravel-exceptions-renderer::components.layouts<?php /**PATH C:\Users\epach\PhpstormProjects\eapprojetos\storage\framework\views/29c42faba90cc40f3e56e2bbd5b23e16.blade.php ENDPATH**/ ?>
