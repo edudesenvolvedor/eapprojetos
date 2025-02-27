@@ -18,6 +18,8 @@
 
         @include('partials.homepage.testimonials')
 
+        @include('partials.homepage.contact')
+
     </main>
 
 @endsection
