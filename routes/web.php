@@ -10,6 +10,10 @@ Route::get('/sobre-mim', function () {
     return view('about');
 });
 
+Route::get('/perguntas-frequentes', function () {
+    return view('faq');
+});
+
 Route::get('/solicite-um-orcamento-ja-um-orcamento', function () {
     return view('home');
 });
