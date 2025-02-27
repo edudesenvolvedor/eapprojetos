@@ -14,6 +14,8 @@
 
         @include('partials.homepage.portfolio')
 
+        @include('partials.homepage.blog')
+
     </main>
 
 @endsection
