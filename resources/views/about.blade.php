@@ -12,6 +12,8 @@
 
         @include('partials.homepage.clients')
 
+        @include('partials.homepage.portfolio')
+
     </main>
 
 @endsection
