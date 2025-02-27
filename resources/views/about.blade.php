@@ -8,6 +8,8 @@
 
         @include('partials.about.info')
 
+        @include('partials.about.technologies')
+
     </main>
 
 @endsection
