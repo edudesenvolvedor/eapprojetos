@@ -10,6 +10,8 @@
 
         @include('partials.about.technologies')
 
+        @include('partials.homepage.clients')
+
     </main>
 
 @endsection
