@@ -17,3 +17,8 @@
     --font-mono: 'Montserrat';
 }
 
+@layer components {
+    .h1 {
+        @apply text-5xl font-extrabold w-full text-center font-mono;
+    }
+}

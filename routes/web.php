@@ -17,3 +17,9 @@ Route::get('/perguntas-frequentes', function () {
 Route::get('/solicite-um-orcamento-ja-um-orcamento', function () {
     return view('home');
 });
+
+Route::prefix('/blog')->group(function () {
+    Route::get('/', function () {
+        return view('blog.home');
+    });
+});
